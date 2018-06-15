@@ -33,7 +33,7 @@ test-testpypi-install: venv
 		-i https://testpypi.python.org/pypi pymagicc \
 		--no-dependencies
 	# Remove local directory from path to get actual installed version.
-	$(TEMPVENV)/bin/python -c "import sys; sys.path.remove(''); import pymagicc; print(pymagicc.__version__)"
+	$(TEMPVENV)/bin/python -c "import sys; sys.path.remove(''); import ghgrenamer; print(ghgrenamer.__version__)"
 
 publish-on-pypi: venv
 	-rm -rf build dist
@@ -50,7 +50,7 @@ test-pypi-install: venv
 	python3 -m venv $(TEMPVENV)
 	$(TEMPVENV)/bin/pip install pip --upgrade
 	$(TEMPVENV)/bin/pip install pymagicc
-	$(TEMPVENV)/bin/python -c "import sys; sys.path.remove(''); import pymagicc; print(pymagicc.__version__)"
+	$(TEMPVENV)/bin/python -c "import sys; sys.path.remove(''); import ghgrenamer; print(ghgrenamer.__version__)"
 
 flake8: venv
 	./venv/bin/flake8 pymagicc
