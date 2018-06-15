@@ -26,12 +26,8 @@ test-testpypi-install: venv
 	$(eval TEMPVENV := $(shell mktemp -d))
 	python3 -m venv $(TEMPVENV)
 	$(TEMPVENV)/bin/pip install pip --upgrade
-	# Install dependencies not on testpypi registry
-	$(TEMPVENV)/bin/pip install pandas f90nml
-	# Install pymagicc without dependencies.
 	$(TEMPVENV)/bin/pip install \
-		-i https://testpypi.python.org/pypi pymagicc \
-		--no-dependencies
+		-i https://testpypi.python.org/pypi ghgrenamer \
 	# Remove local directory from path to get actual installed version.
 	$(TEMPVENV)/bin/python -c "import sys; sys.path.remove(''); import ghgrenamer; print(ghgrenamer.__version__)"
 
@@ -49,7 +45,7 @@ test-pypi-install: venv
 	$(eval TEMPVENV := $(shell mktemp -d))
 	python3 -m venv $(TEMPVENV)
 	$(TEMPVENV)/bin/pip install pip --upgrade
-	$(TEMPVENV)/bin/pip install pymagicc
+	$(TEMPVENV)/bin/pip install ghgrenamer
 	$(TEMPVENV)/bin/python -c "import sys; sys.path.remove(''); import ghgrenamer; print(ghgrenamer.__version__)"
 
 flake8: venv
