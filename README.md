@@ -4,6 +4,15 @@ GHG Renamer
 A Python tool to rename various names used for Greenhouse Gas emissions or
 concentrations tables to a common naming scheme.
 
+Example:
+
+```python
+from ghgrenamer import to_shortname
+
+to_shortname("CO2_emissions")  # => 'CO2'
+
+```
+
 Example usage:
 
 ```python
