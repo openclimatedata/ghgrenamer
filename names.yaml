@@ -1,11 +1,11 @@
 CO2:
   - CO₂
 
-CO2FFI:
+CO2ffi:
   - FossilCO2
   - ffi_emissions
 
-CO2LUC:
+CO2luc:
   - OtherCO2
   - luc_emissions
 
@@ -15,12 +15,12 @@ CH4:
 N2O:
   - N2O_emissions
 
-NOX:
+NOx:
   - NOx
   - NOX_emissions
 
-SOX:
- - SOx
+SOx:
+  - SOx
 
 SO2:
   - SO2_emissions
@@ -65,19 +65,19 @@ HFC125:
 HFC134a:
   - HFC134a_emissions
 
-HFC143A:
+HFC143a:
   - HFC143a_emissions
 
-HFC152A:
+HFC152a:
   - HFC152a
 
-HFC227EA:
+HFC227ea:
   - HFC227ea_emissions
 
-HFC236FA:
+HFC236fa:
   - HFC236fa
 
-HFC245FA:
+HFC245fa:
   - HFC245FA
   - HFC245FA_emissions
 
@@ -96,7 +96,7 @@ HALON1301:
 HALON2402:
   - halon2402_emissions
 
-CH3BR:
+CH3Br:
   - CH3Br_emissions
 
 CH3Cl:
@@ -117,20 +117,20 @@ CFC114:
 CFC115:
   - CFC115_emissions
 
-CCL4:
+CCl4:
   - CCl4_emissions
 
-CH3CCL3:
-    - CH3CCl3_emissions
+CH3CCl3:
+  - CH3CCl3_emissions
 
 HCF22:
   - HCF22_emissions
   - HCF22
 
-HCF141B:
+HCF141b:
   - HCF141b_emissions
   - HCF141b
 
-HCF142B:
+HCF142b:
   - HCF142b_emissions
   - HCF142b
