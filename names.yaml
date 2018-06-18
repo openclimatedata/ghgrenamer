@@ -84,16 +84,16 @@ HFC245fa:
 SF6:
   - SF6_emissions
 
-HALON1202:
+Halon1202:
   - halon1202
 
-HALON1211:
+Halon1211:
   - halon1211_emissions
 
-HALON1301:
+Halon1301:
   - halon1301_emissions
 
-HALON2402:
+Halon2402:
   - halon2402_emissions
 
 CH3Br:
