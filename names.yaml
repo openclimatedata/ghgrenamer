@@ -1,136 +1,132 @@
 CO2:
   - CO₂
 
-CO2ffi:
+CO2-ffi:
   - FossilCO2
-  - ffi_emissions
+  - ffi
 
-CO2luc:
+CO2-luc:
   - OtherCO2
-  - luc_emissions
+  - luc
 
 CH4:
-  - CH4_emissions
+  - CH4
 
 N2O:
-  - N2O_emissions
+  - N2O
 
 NOx:
   - NOx
-  - NOX_emissions
 
 SOx:
   - SOx
 
 SO2:
-  - SO2_emissions
+  - SO2
 
 CO:
-  - CO_emissions
+  - CO
 
 NMVOC:
-  - NMVOC_emissions
+  - NMVOC
 
 BC:
-  - BC_emissions
+  - BC
 
 OC:
-  - OC_emissions
+  - OC
 
 NH3:
   - NH3
 
 CF4:
-  - CF4_emissions
+  - CF4
 
 C2F6:
-  - C2F6_emissions
+  - C2F6
 
 C6F14:
-  - C6F14_emissions
+  - C6F14
 
-HFC23:
-  - HFC23_emissions
+HFC-23:
+  - HFC23
 
-HFC32:
-  - HFC32_emissions
+HFC-32:
+  - HFC32
 
-HFC4310:
+HFC-43-10:
   - HFC43-10
-  - HFC4310_emissions
+  - HFC4310
 
-HFC125:
-  - HFC125_emissions
+HFC-125:
+  - HFC125
 
-HFC134a:
-  - HFC134a_emissions
+HFC-134a:
+  - HFC134a
 
-HFC143a:
-  - HFC143a_emissions
+HFC-143a:
+  - HFC143a
 
-HFC152a:
+HFC-152a:
   - HFC152a
 
-HFC227ea:
-  - HFC227ea_emissions
+HFC-227ea:
+  - HFC227ea
 
-HFC236fa:
+HFC-236fa:
   - HFC236fa
 
-HFC245fa:
+HFC-245fa:
   - HFC245FA
-  - HFC245FA_emissions
+
 
 SF6:
-  - SF6_emissions
+  - SF6
 
-Halon1202:
+Halon-1202:
   - halon1202
 
-Halon1211:
-  - halon1211_emissions
+Halon-1211:
+  - halon1211
 
-Halon1301:
-  - halon1301_emissions
+Halon-1301:
+  - halon1301
 
-Halon2402:
-  - halon2402_emissions
+Halon-2402:
+  - halon2402
 
 CH3Br:
-  - CH3Br_emissions
+  - CH3Br
 
 CH3Cl:
-  - CH3Cl_emissions
+  - CH3Cl
 
-CFC11:
-  - CFC11_emissions
+CFC-11:
+  - CFC11
 
-CFC12:
-  - CFC12_emissions
+CFC-12:
+  - CFC12
 
-CFC113:
-  - CFC113_emissions
+CFC-113:
+  - CFC113
 
-CFC114:
-  - CFC114_emissions
+CFC-114:
+  - CFC114
 
-CFC115:
-  - CFC115_emissions
+CFC-115:
+  - CFC115
 
 CCl4:
-  - CCl4_emissions
+  - CCl4
 
 CH3CCl3:
-  - CH3CCl3_emissions
+  - CH3CCl3
 
-HCF22:
-  - HCF22_emissions
-  - HCF22
+HCFC-22:
+  - HCF22  # Hector 2.x
 
-HCF141b:
-  - HCF141b_emissions
-  - HCF141b
+HCFC-141b:
+  - HCF141b  # Hector 2.x
 
-HCF142b:
-  - HCF142b_emissions
-  - HCF142b
+HCFC-142b:
+  - HCF142b  # Hector 2.x
