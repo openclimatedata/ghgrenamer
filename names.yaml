@@ -54,9 +54,10 @@ HFC-23:
 HFC-32:
   - HFC32
 
-HFC-43-10:
+HFC-43-10mee:
   - HFC43-10
   - HFC4310
+  - HFC-4310mee
 
 HFC-125:
   - HFC125
