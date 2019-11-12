@@ -33,3 +33,6 @@ def test_hector_rcp():
 
 def test_not_found():
     assert to_shortname("CO2-special") == "CO2-special"
+
+def test_space():
+    assert to_shortname("Halon 2011") == "Halon-2011"

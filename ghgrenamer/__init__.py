@@ -5,7 +5,7 @@ __version__ = get_versions()['version']
 del get_versions
 
 def to_shortname(name):
-    name = name.replace("_emissions", "").replace("_concentrations", "")
+    name = name.replace("_emissions", "").replace("_concentrations", "").replace(" ", "-")
     try:
         return mappings[name.lower().replace("-", "")]
     except KeyError:
