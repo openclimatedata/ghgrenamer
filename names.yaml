@@ -1,13 +1,13 @@
 CO2:
-  - CO₂
+  - CO2
 
 CO2-ffi:
+  - ffi  # Hector 2.x style ffi_emissions
   - FossilCO2
-  - ffi
 
 CO2-luc:
   - OtherCO2
-  - luc
+  - luc  # Hector 2.x style luc_emission
 
 CH4:
   - CH4
@@ -55,46 +55,44 @@ HFC-32:
   - HFC32
 
 HFC-43-10mee:
-  - HFC43-10
-  - HFC4310
-  - HFC-4310mee
+  - HFC-43-10-mee
+  - HFC-43-10
 
 HFC-125:
-  - HFC125
+  - HFC-125
 
 HFC-134a:
-  - HFC134a
+  - HFC-134a
 
 HFC-143a:
-  - HFC143a
+  - HFC-143a
 
 HFC-152a:
-  - HFC152a
+  - HFC-152a
 
 HFC-227ea:
-  - HFC227ea
+  - HFC-227ea
 
 HFC-236fa:
-  - HFC236fa
+  - HFC2-36fa
 
 HFC-245fa:
-  - HFC245FA
-
+  - HFC2-45FA
 
 SF6:
   - SF6
 
 Halon-1202:
-  - halon1202
+  - halon 1202
 
 Halon-1211:
-  - halon1211
+  - halon 1211
 
 Halon-1301:
-  - halon1301
+  - halon 1301
 
 Halon-2402:
-  - halon2402
+  - halon 2402
 
 CH3Br:
   - CH3Br
@@ -103,19 +101,19 @@ CH3Cl:
   - CH3Cl
 
 CFC-11:
-  - CFC11
+  - CFC-11
 
 CFC-12:
-  - CFC12
+  - CFC-12
 
 CFC-113:
-  - CFC113
+  - CFC-113
 
 CFC-114:
-  - CFC114
+  - CFC-114
 
 CFC-115:
-  - CFC115
+  - CFC-115
 
 CCl4:
   - CCl4
@@ -124,10 +122,13 @@ CH3CCl3:
   - CH3CCl3
 
 HCFC-22:
+  - HCFC-22
   - HCF22  # Hector 2.x
 
 HCFC-141b:
+  - HCFC-141b
   - HCF141b  # Hector 2.x
 
 HCFC-142b:
+  - HCFC-142b
   - HCF142b  # Hector 2.x

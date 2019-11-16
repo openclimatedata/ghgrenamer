@@ -49,6 +49,9 @@ setup(
         'Programming Language :: Python :: 3.6'
     ],
     packages=['ghgrenamer'],
+    install_requires=[
+        'normality >= 2.0.0'
+    ],
     tests_require=['pytest'],
     cmdclass=cmdclass
 )

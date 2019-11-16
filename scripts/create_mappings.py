@@ -1,5 +1,6 @@
 import yaml
 
+from normality import normalize
 from pprint import pformat
 from pathlib import Path
 
@@ -12,8 +13,7 @@ with open(root / "names.yaml") as f:
 mappings = {}
 for key, names in data.items():
     for name in names:
-        mappings[name.lower()] = key
-    mappings[key.lower()] = key
+        mappings[normalize(name).replace(" ", "")] = key
 
 with open(root / "ghgrenamer/mappings.py", "w") as outfile:
     outfile.write(

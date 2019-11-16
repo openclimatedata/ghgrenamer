@@ -35,4 +35,10 @@ def test_not_found():
     assert to_shortname("CO2-special") == "CO2-special"
 
 def test_space():
-    assert to_shortname("Halon 2011") == "Halon-2011"
+    assert to_shortname("Halon 1211") == "Halon-1211"
+
+def test_lowercase():
+    assert to_shortname("halon-1211") == "Halon-1211"
+
+def test_subscript():
+    assert to_shortname("CO₂") == "CO2"
