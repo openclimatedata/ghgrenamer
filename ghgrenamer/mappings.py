@@ -39,6 +39,7 @@ mappings = {
     'hfc4310': 'HFC-43-10mee',
     'hfc4310mee': 'HFC-43-10mee',
     'luc': 'CO2-luc',
+    'methylchloroform': 'CH3CCl3',
     'n2o': 'N2O',
     'nh3': 'NH3',
     'nmvoc': 'NMVOC',
