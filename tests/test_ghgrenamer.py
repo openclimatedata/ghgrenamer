@@ -44,6 +44,8 @@ def test_space():
 def test_lowercase():
     assert to_shortname("halon-1211") == "Halon-1211"
 
+def test_halon_short():
+    assert to_shortname("H-1202") == "Halon-1202"
 
 def test_subscript():
     assert to_shortname("CO₂") == "CO2"
