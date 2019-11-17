@@ -29,23 +29,7 @@ df = pd.read_excel(
 
 print([to_shortname(i) for i in df.columns])
 """
- ['CO2',
-  'CH4',
-  'N2O',
-  'HFC134a',
-  'HFC23',
-  'HFC32',
-  'HFC125',
-  'HFC143A',
-  'HFC152A',
-  'HFC227EA',
-  'HFC236FA',
-  'HFC245fa',
-  'HFC-365mfc',
-  'HFC-43-10mee',
-  'NF3',
-  'SF6',
-  # ...
+['CO2', 'CH4', 'N2O', 'HFC-134a', 'HFC-23', 'HFC-32', 'HFC-125', 'HFC-143a', 'HFC-152a', 'HFC-227ea', 'HFC-236fa', 'HFC-245fa', 'HFC-365mfc', 'HFC-43-10mee', 'NF3',  # ...
 """
 ```
 
