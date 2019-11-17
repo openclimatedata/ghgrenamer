@@ -8,7 +8,7 @@ root = Path(__file__).parents[1]
 
 
 with open(root / "names.yaml") as f:
-    data = yaml.load(f)
+    data = yaml.load(f, Loader=yaml.FullLoader)
 
 mappings = {}
 for key, names in data.items():
