@@ -16,8 +16,4 @@ for key, names in data.items():
         mappings[normalize(name).replace(" ", "")] = key
 
 with open(root / "ghgrenamer/mappings.py", "w") as outfile:
-    outfile.write(
-        "mappings = {\n " +
-        pformat(mappings, indent=4)[1:-1] +
-        "\n}")
-
+    outfile.write("mappings = {\n " + pformat(mappings, indent=4)[1:-1] + "\n}")
